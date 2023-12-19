@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Opening Hours",
+    "description": "Open 9.00 am to 5.00pm Everyday",
+    "icon": "LuClock",
+    "background": "#07332F"
+  },
+  {
+    "id": 2,
+    "title": "Our Locations",
+    "description": "Dhanmondi 17, Dhaka -1200, Bangladesh",
+    "icon": "CiLocationOn",
+    "background": "#F7A582"
+  },
+  {
+    "id": 3,
+    "title": "Contact Us",
+    "description": "+88 01750 00 00 00",
+    "icon": "TbPhoneCalling",
+    "background": "#07332F"
+  }
+]
