@@ -3,7 +3,7 @@ import tooth from "../../../assets/tooth.png";
 
 const OurServices = () => {
   return (
-    <div className="flex justify-between  py-20">
+    <div className="flex justify-between flex-col lg:flex-row">
       <div className="flex-1 ">
         <img className="" src={doctor} alt="" />
       </div>
