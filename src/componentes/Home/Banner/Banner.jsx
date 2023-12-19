@@ -1,21 +1,24 @@
-import banner from "../../../assets/Rectangle.png"
-import img from "../../../assets/Rectangle 20077.png"
+import banner from "../../../assets/banner.png";
+import Button from "../../Button/Button";
 
 const Banner = () => {
-    return(
-        <div className="relative h-[80vh]">
-            <img src={banner} alt="" />
-            <div className="absolute top-0 left-0 w-full h-full flex items-center justify-evenly">
-               <div>
-               <h1 className="text-white">Your Best Medical Help Center</h1>
-               <p>Lorem Ipsum is simply dummy text they are printing typesetting has been the industry’s stardard.</p>
-               </div>
-                <div className="relative w-64">
-                    <img className="absolute top-40 right-44" src={img} alt="omg" />
-                    <img className="" src={img} alt="omg" />
-                    <img className="absolute top-40 left-24" src={img} alt="omg" />
-                </div>
-            </div>
+  return (
+    <div>
+      <img className="lg:w-[1680px] lg:h-[620px]" src={banner} alt="" />
+      <div className="absolute top-0 left-0 w-full h-full flex items-center justify-evenly">
+        <div>
+          <h1 className="text-white w-[595px] text-6xl font-bold">
+            Your Best Medical Help Center
+          </h1>
+          <p className="text-[#F3F3F3] py-4 w-96">
+            Lorem Ipsum is simply dummy text they are printing typesetting has
+            been the industry’s stardard.
+          </p>
+          <Button btnName="All Service" />
         </div>
-    )}
+        <div className="relative w-64"></div>
+      </div>
+    </div>
+  );
+};
 export default Banner;
