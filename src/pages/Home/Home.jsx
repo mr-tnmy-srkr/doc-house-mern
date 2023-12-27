@@ -1,10 +1,11 @@
 import Banner from "../../components/Home/Banner/Banner";
 import ContactUs from "../../components/Home/ContactUs/ContactUs";
 import ExpertDoctors from "../../components/Home/ExpertDoctors/ExpertDoctors";
-import NavBar from "../../components/Home/NavBar/NavBar";
+import NavBar from "../../components/Shared/NavBar/NavBar";
 import OpeningHr from "../../components/Home/OpeningHr/OpeningHr";
 import OurServices from "../../components/Home/OurServices/OurServices";
 import Review from "../../components/Home/Review/Review";
+import Footer from "../../components/Shared/Footer/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Review/>
         <ExpertDoctors/>
         <ContactUs/>
+        <Footer/>
     </div>
   );
 };

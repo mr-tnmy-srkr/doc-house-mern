@@ -12,7 +12,7 @@ const Banner = () => {
           </h1>
           <p className="text-[#F3F3F3] py-4 w-96">
             Lorem Ipsum is simply dummy text they are printing typesetting has
-            been the industry’s stardard.
+            been the industry’s standard.
           </p>
           <Button btnName="All Service" />
         </div>
